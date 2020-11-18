@@ -1,0 +1,123 @@
+                                                    @media (min-width: 768px) and (max-width: 1024px) {
+                                                    //CSS
+                                                }
+                                                /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+                                                
+                                                @media (min-width: 481px) and (max-width: 767px) {
+                                                    .px-5 {
+                                                        padding-left: 0rem !important;
+                                                    }
+                                                    .banner-img img {
+                                                        margin-left: 28px;
+                                                        width: 91%;
+                                                    }
+                                                    .inner-banner span {
+                                                        color: white;
+                                                        font-size: 35px;
+                                                        font-style: italic;
+                                                        font-weight: 700;
+                                                    }
+                                                    .inner-banner {
+                                                        margin-left: 23px;
+                                                    }
+                                                    .inner-banner img {
+                                                        width: 93%;
+                                                        margin-top: 37px;
+                                                    }
+                                                    .paragraph-section .inner-paragraph p {
+                                                        margin: 32px 0px;
+                                                        font-size: 14px;
+                                                        color: #75757E;
+                                                    }
+                                                    .paragraph-section .inner-paragraph h2 {
+                                                        color: #3AB249;
+                                                        font-size: 34px;
+                                                        font-weight: 700;
+                                                    }
+                                                    .paragraph-section .inner-paragraph a {
+                                                        padding: 12px 20px;
+                                                        /* margin-top: 14px; */
+                                                    }
+                                                    .banner-section .inner-banner a {
+                                                        padding: 12px 20px;
+                                                    }
+                                                    .card-section .inner-card a {
+                                                        padding: 12px 20px;
+                                                    }
+                                                    .card1 {
+                                                        margin-right: 0px
+                                                    }
+                                                    .card-section .inner-card {
+                                                        display: flex;
+                                                        /* justify-content: center; */
+                                                        margin-left: 15px;
+                                                    }
+                                                    .footer-section .inner-footer {
+                                                        padding-left: 44px;
+                                                        /* display: flex; */
+                                                    }
+                                                    .header-section .navbar-light .navbar-nav .nav-link {
+                                                        color: rgba(0, 0, 0, 0.5);
+                                                        font-size: 15px;
+                                                        font-weight: 500;
+                                                        padding: 2px 18px;
+                                                        transition: 0.5s;
+                                                        border-bottom: none;
+                                                    }
+                                                    .header-section .navbar-light .navbar-nav .nav-link:hover {
+                                                        color: green;
+                                                        /* border-bottom: 3px solid green; */
+                                                        border-bottom: none;
+                                                    }
+                                                    /* about */
+                                                    .signup .form-inline {
+                                                        margin-left: 41px;
+                                                    }
+                                                    .signup .form-control {
+                                                        padding: 23px 23px;
+                                                    }
+                                                    .signup .btn {
+                                                        padding: 13px 32px;
+                                                        font-weight: 600;
+                                                        background: #3AB249;
+                                                        border: none;
+                                                        margin-left: 18px;
+                                                    }
+                                                    .portfolio-section .content {
+                                                        /* width: 79%; */
+                                                        padding: 0px 39px;
+                                                        margin-top: -66px;
+                                                    }
+                                                    .About-banner-section .banner-head h2 {
+                                                        font-size: 30px;
+                                                        font-weight: 600;
+                                                    }
+                                                    .About-banner-section .banner-head p {
+                                                        line-height: 2.5;
+                                                        font-weight: 500;
+                                                        margin-bottom: 33px;
+                                                        text-align: justify;
+                                                    }
+                                                    .About-banner-section .banner {
+                                                        /* margin-left: 3px; */
+                                                        padding-left: 40px;
+                                                    }
+                                                    .signup .inner-content h2 {
+                                                        font-weight: 700;
+                                                        font-size: 28px;
+                                                        margin-bottom: 17px;
+                                                    }
+                                                    .contact-banner .inner-banner {
+                                                        flex-direction: column-reverse;
+                                                    }
+                                                    .contact-banner .inner-content p {
+                                                        color: white;
+                                                    }
+                                                    /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+                                                    @media (min-width: 320px) and (max-width: 480px) {}

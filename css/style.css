@@ -1,0 +1,412 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "PT Sans", sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.header-section {
+    background: rgb(248, 249, 250);
+}
+
+.navbar-brand img {
+    width: 130px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 18px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s ease 0s;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: green;
+    border-bottom: 3px solid green;
+}
+
+.banner-section {
+    background: rgb(63, 123, 203);
+    padding: 79px 0px;
+}
+
+.banner {}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-content {
+    padding-left: 97px;
+}
+
+.inner-banner {}
+
+.inner-banner img {}
+
+.inner-banner span {
+    color: white;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.inner-banner ul {
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+
+.inner-banner ul li {
+    font-weight: 700;
+    line-height: 2.3;
+}
+
+.banner-section .inner-banner a {
+    color: white;
+    border: 1px solid rgb(255, 118, 75);
+    background: rgb(255, 118, 75);
+    padding: 15px 51px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+
+.banner-section .inner-banner a:hover {
+    text-decoration: none;
+    box-shadow: rgb(255, 255, 254) -1px 0px 8px 0px;
+}
+
+.paragraph-section {
+    padding: 57px 0px;
+    background: rgb(242, 241, 241);
+}
+
+.paragraph-section .paragraph {
+    text-align: center;
+}
+
+.paragraph-section .inner-paragraph {}
+
+.paragraph-section .inner-paragraph h2 {
+    color: rgb(58, 178, 73);
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.paragraph-section .inner-paragraph p {
+    margin: 34px 0px;
+    font-size: 18px;
+    color: rgb(117, 117, 126);
+}
+
+.paragraph-section .inner-paragraph a {
+    color: white;
+    background: rgb(58, 178, 73);
+    padding: 15px 51px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+
+.paragraph-section .inner-paragraph a:hover {
+    text-decoration: none;
+    box-shadow: rgb(58, 178, 73) -1px 0px 8px 0px;
+}
+
+.card-section {
+    padding: 35px 0px;
+}
+
+.card-section .inner-headline {}
+
+.card-section .inner-headline h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(117, 117, 126);
+}
+
+.card-section .card {
+    border: none;
+}
+
+.card-section .inner-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-section .inner-card img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.card-section .inner-card p {
+    color: rgb(117, 117, 126);
+    line-height: 2;
+    font-weight: 500;
+    margin: 28px 0px;
+}
+
+.card-section .inner-card a {
+    color: white;
+    background: rgb(58, 178, 73);
+    padding: 15px 51px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+
+.card-section .inner-card a:hover {
+    text-decoration: none;
+    box-shadow: rgb(58, 178, 73) -1px 0px 8px 0px;
+}
+
+.card1 {
+    margin-right: 104px;
+}
+
+.card2 {}
+
+.footer-section {
+    background: rgb(242, 241, 241);
+    padding: 55px 0px;
+}
+
+.footer-section .inner-footer {
+    padding-left: 97px;
+}
+
+.footer-section .inner-footer ul {
+    list-style: none !important;
+}
+
+.footer-section .inner-footer ul li span {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(117, 117, 126);
+}
+
+.footer-section .inner-footer ul li {
+    color: rgb(117, 117, 126);
+    line-height: 2;
+}
+
+.footer-section .inner-footer ul li a {
+    color: rgb(117, 117, 126);
+}
+
+.product-banner-section {
+    padding-top: 96px;
+    padding-bottom: 40px;
+    background: rgb(233, 236, 239);
+}
+
+.product-banner-section .banner {}
+
+.product-banner-section .banner-img {}
+
+.product-banner-section .banner-img img {
+    width: 86%;
+}
+
+.product-banner-section .banner-content {
+    margin-top: 75px;
+}
+
+.product-banner-section .inner-banner {}
+
+.product-banner-section .inner-banner h1 {
+    font-weight: 700;
+    color: rgb(59, 169, 73);
+}
+
+.product-banner-section .inner-banner p {
+    font-size: 20px;
+    color: rgb(124, 124, 125);
+}
+
+.About-banner-section {
+    padding: 110px 0px 62px;
+    background: rgb(219, 237, 222);
+}
+
+.About-banner-section .banner {}
+
+.About-banner-section .banner-head {
+    margin-right: 68px;
+}
+
+.About-banner-section .banner-head h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.About-banner-section .banner-head p {
+    line-height: 2.5;
+    font-weight: 500;
+    margin-bottom: 33px;
+}
+
+.About-banner-section .banner-head a {
+    color: white;
+    background: rgb(58, 178, 73);
+    padding: 15px 23px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+
+.About-banner-section .banner-head a:hover {
+    text-decoration: none;
+    box-shadow: rgb(58, 178, 73) -1px 0px 8px 0px;
+}
+
+.About-banner-section .banner-content {}
+
+.About-banner-section .inner-banner {}
+
+.About-banner-section .inner-banner img {
+    width: 100%;
+    box-shadow: rgb(165, 156, 141) -1px 0px 12px 0px;
+}
+
+.portfolio-section {}
+
+.portfolio-section .inner-port {}
+
+.portfolio-section .inner-img {}
+
+.portfolio-section .inner-img img {
+    width: 80%;
+}
+
+.portfolio-section .content {}
+
+.portfolio-section .inner-content {
+    margin-top: 84px;
+}
+
+.portfolio-section .inner-content h2 {
+    font-weight: 600;
+    color: rgb(58, 178, 73);
+}
+
+.portfolio-section .inner-content p {
+    text-align: justify;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.signup {
+    background: rgb(82, 82, 91);
+    padding: 51px 0px;
+}
+
+.signup .inner-content {}
+
+.signup .content {}
+
+.signup .inner-content {
+    color: white;
+    text-align: center;
+}
+
+.signup .inner-content span {
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.signup .inner-content h2 {
+    font-weight: 700;
+    font-size: 33px;
+    margin-bottom: 17px;
+}
+
+.signup .form-inline {}
+
+.signup .form-group {}
+
+.signup .sr-only {}
+
+.signup .form-control {
+    padding: 27px 75px;
+}
+
+.signup .btn {
+    padding: 16px 35px;
+    font-weight: 600;
+    background: rgb(58, 178, 73);
+    border: none;
+    transition: all 0.5s ease 0s;
+}
+
+.signup .btn:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(58, 178, 73) -1px 0px 8px 0px;
+    background: rgb(58, 178, 73);
+}
+
+.contact-banner {
+    padding: 85px 0px;
+}
+
+.contact-banner .inner-banner {
+    background: url("../images/zipify-contact-banner.jpg");
+    display: flex;
+}
+
+.contact-banner .inner-banner img {
+    width: 100%;
+}
+
+.contact-banner .inner-content {
+    padding-top: 144px;
+    padding-bottom: 215px;
+}
+
+.contact-banner .inner-content img {
+    width: 46%;
+}
+
+.contact-banner .inner-content p {
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.contact-banner .inner-content span {
+    color: rgb(67, 168, 54);
+    font-size: 25px;
+}
